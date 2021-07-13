@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SergioBracamontePH</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body id="body">
+
+    <script src="js/textcolor.js">
+    function cambiaFondo (x) {
+        console.log (x.value);
+   
+        var body =document.getElementById(body);
+        body.style.backgroundColor = x.value;
+    }</script>
+    
+<select name="fondo" id="fondo" onchange = "cambiaFondo (this)">
+<option value ="red">rojo</option>
+<option value ="blue">azul</option>
+<option value ="green">verde</option>
+
+</select>
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">Servicio</a>
+                <a href="#galeria">Portafolio</a>
+                <a href="#expertos">Especializados</a>
+                <a href="#footer">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Sergio Bracamonte PH </h1>
+            <p class="copy">Capturando Emociones</p>
+        </div>
+        
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="img/logo.jpg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>PRE-PRODUCCION</h3>
+                        <p> El fotógrafo y su equipo preparan toda la logística y planifican la sesión o el evento. Incluye reuniones con el cliente, creación de la idea fotográfica, elección del vestuario y también del estilismo; realización del castin, búsqueda de localizaciones y también la elección de dónde se tomarán las fotografías, tramitación de permisos, preparación del equipo técnico y humano.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>PRODUCCION</h3>
+                        <p> Se lleva a cabo la sesión de fotos y también se pone en marcha todo lo preparado en la preproducción. Es el día clave. Comienza con el arreglo del set, la colocación de la iluminación, además de los objetos necesarios para la ambientación, la puesta de vestuario y del maquillaje, la búsqueda de los mejores encuadres y espacios dentro del lugar para tomar las foto. Todo esto culmina en la sesión de fotos, donde el fotógrafo utiliza todo su talento además de su experiencia para que las fotografías queden lo mejor posible.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>POST-PRODUCCION</h3>
+                        <p> En esta última etapa de cualquier servicio de fotografía profesional se cierra el proyecto y por lo tanto se obtiene el resultado final. Es el momento de realizar retoques fotográficos, cambios, y también adaptaciones. Finalmente se envían o se imprimen las fotos definitivas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/dos.jpg" class="img-galeria" alt="">
+                    <img src="img/tres.jpg" class="img-galeria" alt="">
+                    <img src="img/cuatro.jpg" class="img-galeria" alt="">
+                    <img src="img/cinco.jpg" class="img-galeria" alt="">
+                    <img src="img/seis.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/camera_.svg" alt="">
+                    <h3 class="n-expert">DISEÑO</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/search_engine.svg" alt="">
+                    <h3 class="n-expert">PHOTOSHOP</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/family_.svg" alt="">
+                    <h3 class="n-expert">GRANDES MOMENTOS</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Sergio Bracamonte PH</h2>
+                    <p>Somos expertos en captar tus mejores momentos</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/sergio.bracamonte.7" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="https://www.instagram.com/sergiobracamonte.ph/" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+<script src="js/menu.js"></script>
+<script src="js/lightbox.js"></script>
+<script ></script>
+</body>
+</html>
